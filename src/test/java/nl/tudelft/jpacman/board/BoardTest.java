@@ -5,7 +5,18 @@ import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 import org.junit.jupiter.api.Test;
 
+/**
+ * Test suite to confirm that {@link Unit}s correctly (de)occupy squares.
+ *
+ * @author Phanphum Prathumsuwan
+ *
+ */
+
 class BoardTest {
+
+    /**
+     * Do we get the expected output for testing squareAt_ReturnsSquare_OnValidBoard
+     */
 
     @Test
     void squareAt_ReturnsSquare_OnValidBoard() {
@@ -20,6 +31,9 @@ class BoardTest {
         assertThat(board.getHeight()).isEqualTo(1);
     }
 
+    /**
+     * Do we get the expected output for testing constructor_Fails_OnNullSquare
+     */
     @Test
     void constructor_Fails_OnNullSquare() {
         // 1×1 grid but the only cell is null
