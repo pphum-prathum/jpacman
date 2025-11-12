@@ -15,7 +15,7 @@ import org.junit.jupiter.api.Test;
 class BoardTest {
 
     /**
-     * Do we get the expected output for testing squareAt_ReturnsSquare_OnValidBoard
+     * Do we get the expected output for testing squareAt_ReturnsSquare_OnValidBoard.
      */
 
     @Test
@@ -32,7 +32,7 @@ class BoardTest {
     }
 
     /**
-     * Do we get the expected output for testing constructor_Fails_OnNullSquare
+     * Do we get the expected output for testing constructor_Fails_OnNullSquare.
      */
     @Test
     void constructor_Fails_OnNullSquare() {
